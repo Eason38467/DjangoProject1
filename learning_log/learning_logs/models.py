@@ -22,7 +22,7 @@ class Entry(models.Model):
     text = models.TextField()
     date_added = models.DateField(auto_created=True)
 
-    class Mera:
+    class Meta:
         verbose_name_plural = 'entries'
 
     def __str__(self):
